@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="./nav.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+      body {
+        background: url('./img/about-bg.jpg');
+      }
+      .container {
+        display: flex;
+        max-height: 512px;
+      }
+      .box-1 img {
+        height: 95%;
+        margin-top: 30px;
+        margin-left: 60px;
+        box-shadow: -10px 10px 20px rgba(31, 15, 0, 0.592) , 10px 0px 10px rgba(52, 24, 1, 0.252);
+        mix-blend-mode:multiply;
+      }
+      .box-2 .names {
+        text-align: center;
+        margin: 50px;
+      }
+      .box-2 .names h2,h4 {
+        font-family: 'Pangolin', cursive;
+        font-size: x-large;
+        margin: 5px;
+        text-shadow: 0px 1px 20px rgb(175, 125, 33);
+        mix-blend-mode: multiply;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="./home/home.html" class="logo">ArtNook</a>
+      <div class="navbar-right">
+        </button>
+        <a href="./explore">Explore</a>
+        <a href="../aboutus.html">About Us</a>
+        <a href="/signin/signin.html">Sign In</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="box-1">
+        <img src="./img/monalisa.jpg" alt="">
+      </div>
+      <div class="box-2">
+        <div class="names">
+          <h2>Satyajit Jena</h2>
+          <h4>B2-13</h4>
+        </div>
+        <div class="names">
+          <h2>Shyam Sundar Mohanty</h2>
+          <h4>B1-18</h4>
+        </div>
+        <div class="names">
+          <h2>Subham Sankar Lenka</h2>
+          <h4>B1-15</h4>
+        </div>
+        <div class="names">
+          <h2>Swapnasagar Sahoo</h2>
+          <h4>B2-16</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
